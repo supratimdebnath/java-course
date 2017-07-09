@@ -15,7 +15,7 @@ class Ideone
 		int b=s.nextInt();
 		
 		System.out.println("the list is");
-		for(int i=a;i<=b;i++)
+		for(int i=a;i<=b;a<b;i++)
 			if(i%2==0)
 			System.out.println(i);
 		

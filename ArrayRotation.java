@@ -14,8 +14,8 @@ public class RotateArray {
     for(int i = 0; i < n; i++)
         a[i] = s.nextInt();
     System.out.println("enter no of test cases");
-    int test=s.nextInt();
-    rotate.Arotate(a,n,test);
+    int k=s.nextInt();
+    rotate.Arotate(a,n,k);
     for(int i=0;i<n;i++)
         System.out.printf("%d  ",a[i]);
     
